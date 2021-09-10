@@ -1,0 +1,98 @@
+:root {
+  --title:#f8c27a;
+  --textShadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+  --boxShadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  font: 14px Helvetica, sans-serif;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+#page-wrap {
+  width: 500px;
+  margin: 50px auto;
+  justify-content: center;
+  border: 7px solid teal;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255,0.2);
+  box-shadow: var(--boxShadow);
+}
+h1 {
+  font: 50px Georgia, Serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  text-align: center;
+  box-shadow: var(--boxShadow)
+}
+.form {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+input[type=text] {
+  float: left;
+  width: 140px;
+  font: bold 20px Helvetica, sans-serif;
+  padding: 5px 0 0 0;
+  text-align: center;
+  margin-left: 35%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.form div {
+  overflow: hidden;
+  margin: 0 0 5px 0;
+}
+.button {
+  margin: 0 0 0 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+  float: left;
+  text-align: center;
+  background: url(../images/buttons.png) no-repeat;
+}
+.dec {
+  background-position: 0 -29px;
+}
+
+.buttons {
+  padding: 20px 0 0 140px;
+}
+
+/* style de boutton calculer */
+.boutton {
+background-color: teal;
+border: none;
+color: white;
+padding: 5px 15px;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+cursor: pointer;
+border-radius: 25px;
+transition: all 0.2s;
+box-shadow: 0 5px 15px rgba(28, 68, 73, 0.521);
+}
+.boutton:hover {
+  background-color: rgb(0, 184, 184); 
+  transform: translateY(-2px);
+}
+p{
+color: #27186b;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+}
